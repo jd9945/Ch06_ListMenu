@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity
                 msg+=" "+str;    // 每个选项 (餐点) 名称前空一格
         }                        // 并附加到信息字符串后面
         else                     // 若 ArrayList 中的选项数等于 0
-            msg="请点餐!";
+            msg="请点餐!快点吃";
 
         TextView msgTxv =(TextView) findViewById(R.id.msgTxv);
         msgTxv.setText(msg);  // 显示信息字符串
